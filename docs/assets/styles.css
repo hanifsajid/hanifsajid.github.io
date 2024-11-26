@@ -1,0 +1,53 @@
+.announcement-panel {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .announcement {
+    display: none; /* Start with all announcements hidden */
+  }
+  
+  .announcement:first-child {
+    display: block; /* Show the first announcement initially */
+  }
+  
+  .announcement-date {
+    color: lightblue; /* Color for the date */
+    font-weight: bold; /* Optional: make the date bold */
+  }
+  
+  .announcement-text {
+    color: white; /* Color for the announcement text */
+  }
+
+  .announcement a {
+    color: rgb(29, 149, 39); /* Customize link color */
+    text-decoration: underline; /* Add underline if desired */
+  }
+  
+  .announcement a:hover {
+    color: orange; /* Change color on hover */
+  }
+
+
+
+/* Space above the bibliography section */
+#refs {
+  margin-top: 20px; /* Space above the bibliography */
+}
+
+/* Targeting the list items directly */
+#refs ul, #refs ol {
+  padding: 0; /* Remove padding from the list */
+}
+
+#refs ul li, #refs ol li {
+  margin-bottom: 10000px; /* Space between each entry */
+}
