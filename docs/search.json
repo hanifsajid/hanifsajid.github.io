@@ -4,7 +4,7 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "azLLM\nazLLM is a Python package that provides a unified interface to work with multiple LLM providers including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.\nCitation: Sajid, H., Radford, B., Dai, Y., & Windett, J. (2025). azLLM (Version 0.1.0) [Computer software]. https://github.com/hanifsajid/azLLM\nFor more information, visit the Documentation.\n\n\n\n Back to top"
+    "text": "azllm\nazllm is a Python package that provides a unified interface to work with multiple LLM providers including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.\nCitation: Sajid, H., Radford, B., Dai, Y., & Windett, J. (2025). azLLM (Version 0.1.2) [Computer software]. https://github.com/hanifsajid/azllm\nFor more information, visit the Documentation.\n\n\n\n Back to top"
   },
   {
     "objectID": "teaching.html",
