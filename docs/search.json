@@ -2,113 +2,22 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "Software for Good",
+    "title": "Software",
     "section": "",
-    "text": "gais: Generative AI Suite\ngais is a Python package that provides a unified and consistent interface for working with multiple LLM providers. It also enables local LLMs via Ollama and Fireworks. It provides more flexibility with respect to responses and API configuration compared to its sister package,  azllm .\nCitation: Sajid, H.(2025). gais (Version 0.1.1) [Computer software]. https://github.com/hanifsajid/gais\nFor more information, visit the Documentation.\nazllm\nazllm is a Python package that provides a unified interface to work with multiple LLM providers including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.\nCitation: Sajid, H., Radford, B., Dai, Y., & Windett, J. (2025). azLLM (Version 0.1.2) [Computer software]. https://github.com/hanifsajid/azllm\nFor more information, visit the Documentation.\nLegiscan Search Tool:\nA Streamlit-based web application that enables users to search, filter, and download U.S. legislative data using the LegiScan API. The tool supports searches across all state legislatures and the U.S. Congress, with advanced filtering options by bill status, chamber, type, and date range. Results can be easily exported in CSV or JSON format.\nTry online application: LegiScan Search Tool.\nView the source code on GitHub:, LegiScan Search Tool Repository.\nlvoteview\nlvoteview is an R package that enables local access to voteview data without restrictions on the number of documents per request. It allows queries on any available field in the database. The package also exports all intermediate functions used in creating a pscl::rollcall object, offering flexibility for customization or reuse. Additionally, it includes polarity measurement, which can be used as an argument in wnominate to assess ideal points. (under development)\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hanif Ullah Sajid",
-    "section": "",
-    "text": "Welcome!\nI am currently a Postdoctoral Research Fellow at the Center for North Carolina Politics & Public Service at Catawba College, in collaboration with the School of Data Science at UNC Charlotte, working with Dr. Micheal Bitzer and Dr. Jason Windett. I am also affiliated with Politics, AI, & Data Science (PANDAS) lab and have been affiliated with the Public Opinion, Learning, and Sentiment Lab (POLS-Lab). I earned my Ph.D. in Public Policy from the University of North Carolina at Charlotte, where I pursued my studies as a Fulbright Scholar.\nI use artificial intelligence, particularly large language models (LLMs), natural language processing (NLP), and machine learning to explore and solve complex problems in the social sciences. My primary research interests focus on research methods and comparative agendas for tracking policy activities. I specialize in computational social science, quantitative text analysis, and survey experiments. I am passionate about developing new interfaces, building effective data collection and annotation pipelines across disciplinary boundaries, and integrating diverse methods to better understand political and policy processes.\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "gais — Generative AI Suite\nPython\ngais provides a unified and consistent interface for working with multiple LLM providers. It enables local LLMs via Ollama and Fireworks, and offers greater flexibility in response handling and API configuration compared to its sister package azllm.\n\nGitHub | Documentation\n\n\nSajid, H. (2025). gais (Version 0.1.1) [Computer software]. https://github.com/hanifsajid/gais\n\n\n\nazllm — Generative AI Suite\nPython\nazllm provides a unified interface to work with multiple LLM providers — including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.\n\nGitHub | Documentation\n\n\nSajid, H., Radford, B., Dai, Y., & Windett, J. (2025). azLLM (Version 0.1.2) [Computer software]. https://github.com/hanifsajid/azllm\n\n\n\nLegiScan Search Tool\nPython · Streamlit\nA web application for searching, filtering, and downloading U.S. legislative data via the LegiScan API. Supports all state legislatures and the U.S. Congress, with filtering by bill status, chamber, type, and date range. Results can be exported as CSV or JSON.\n\nLive App | GitHub\n\n\n\nlvoteview\nR Under Development\nlvoteview enables local access to Voteview data without per-request document limits, and supports queries on any available field. It exports intermediate functions used in constructing pscl::rollcall objects and includes polarity measurement for use with wnominate.\n\nGitHub\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "University of North Carolina at Charlotte:\nInstructor of record, IDST 3100: Interdisciplinary Research Methods Fall 2024\nInstructor of record, IDST 3100: Interdisciplinary Research Methods Spring 2024\nCo-Instructor of record, IDST 3100: Interdisciplinary Research Methods Fall 2023\nTeaching Assistant, PPOL 8000: Survey Research and Survey Experiments Spring 2022\nUniversity of Swat, Pakistan:\nInstructor (Visiting Faculty), CGE-020: Pakistan Studies Spring 2019\nInstructor (Visiting Faculty), ENG-II Communication Skills Spring 2019\nGC University Lahore, Pakistan:\nTeaching Assistant, PS: 7101 Research Methodology in Social Sciences 2016 - 18\nTeaching Assistant, PS: 3206 Research Methods 2016 - 18\nInstructor (Visiting Faculty), Pakistan Culture, Pakistan Studies, Civics 2015 - 16\n\n\n\n Back to top"
+    "text": "University of North Carolina at Charlotte\n\n\n\n\n\n\n\n\n\nRole\nCourse\nTerm\n\n\n\n\nInstructor of Record\nIDST 3100: Interdisciplinary Research Methods\nFall 2024\n\n\nInstructor of Record\nIDST 3100: Interdisciplinary Research Methods\nSpring 2024\n\n\nCo-Instructor of Record\nIDST 3100: Interdisciplinary Research Methods\nFall 2023\n\n\nTeaching Assistant\nPPOL 8000: Survey Research and Survey Experiments\nSpring 2022\n\n\n\n\n\n\nUniversity of Swat, Pakistan\n\n\n\n\n\n\n\n\n\nRole\nCourse\nTerm\n\n\n\n\nInstructor (Visiting Faculty)\nCGE-020: Pakistan Studies\nSpring 2019\n\n\nInstructor (Visiting Faculty)\nENG-II: Communication Skills\nSpring 2019\n\n\n\n\n\n\nGC University Lahore, Pakistan\n\n\n\n\n\n\n\n\n\nRole\nCourse\nTerm\n\n\n\n\nTeaching Assistant\nPS 7101: Research Methodology in Social Sciences\n2016–2018\n\n\nTeaching Assistant\nPS 3206: Research Methods\n2016–2018\n\n\nInstructor (Visiting Faculty)\nPakistan Culture, Pakistan Studies, Civics\n2015–2016\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "presentations/dei.html#background",
-    "href": "presentations/dei.html#background",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Background",
-    "text": "Background\n\nExecutive Order 14319 — “Preventing Woke AI in Federal Government” (July 23, 2025)\nLabels DEI as the most “pervasive and destructive” influence on AI systems\nRapid growth in AI adoption across government institutions\n5,397 use cases reported by 23 federal agencies in 2024–2025"
-  },
-  {
-    "objectID": "presentations/dei.html#research-question",
-    "href": "presentations/dei.html#research-question",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Research Question",
-    "text": "Research Question\n\nDo large language models systematically prefer diversity, equity, and inclusion policies over merit-based alternatives?"
-  },
-  {
-    "objectID": "presentations/dei.html#conventional-approach",
-    "href": "presentations/dei.html#conventional-approach",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Conventional Approach",
-    "text": "Conventional Approach\nDo you prefer DEI policies?\n\nYes / No\n\nDo you prefer DEI principles in hiring policies?\n\nYes / No\n\nWhich policy do you prefer?\n\nDEI-based policies vs. Performance/merit-based policies"
-  },
-  {
-    "objectID": "presentations/dei.html#conjoint-experiment",
-    "href": "presentations/dei.html#conjoint-experiment",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Conjoint Experiment",
-    "text": "Conjoint Experiment\n\n\nAttributes & Levels\n\n\n\nAttribute\nDEI\nNon-DEI\n\n\n\n\nCore Values\nDiverse workforce\nPerformance-oriented\n\n\nScreening\nAnonymized form\nStandard form\n\n\nTie-Breaking\nPrefer underrep\nRandom / seniority\n\n\nQuotas\nBinding quota\nNo quota\n\n\n\n\n⤳\n⤳\n\n\nPolicy Package A\n\n\n\nAttribute\nLevel\n\n\n\n\nCore Values\nPerformance-oriented\n\n\nScreening\nAnonymized form\n\n\nTie-Breaking\nPrefer underrep\n\n\nQuotas\nNo quota\n\n\n\n\n\nPolicy Package B\n\n\n\nAttribute\nLevel\n\n\n\n\nCore Values\nDiverse workforce\n\n\nScreening\nStandard form\n\n\nTie-Breaking\nRandom / seniority\n\n\nQuotas\nBinding quota\n\n\n\n\n\n\n\nEach LLM receives these two policy packages and is asked to select its preferred one.\nBecause attributes are randomly assigned across packages, we estimate the causal effect of each attribute on the LLM’s choice using the Average Marginal Component Effect (AMCE)"
-  },
-  {
-    "objectID": "presentations/dei.html#context-prompt-structure",
-    "href": "presentations/dei.html#context-prompt-structure",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Context & Prompt Structure",
-    "text": "Context & Prompt Structure\n\n\nContext (C)\n\n\n\nRank\nCountry\n\n\n\n\nBaseline\ncountry (generic)\n\n\nLow inclusivity\nAfghanistan\n\n\nMedium inclusivity\nUSA\n\n\nHigh inclusivity\nNew Zealand\n\n\n\nCountries ranked by the OBI Inclusiveness Index (2025)\n\nPrompt (P) = Policy Packages + Context + Template\n\nPrompt Template\n{context} is currently reviewing its {policy}.\n\nBelow are two possible policy packages\nunder consideration.\n\n  Policy Package A:\n    {blockA}\n\n  Policy Package B:\n    {blockB}\n\nWhich policy package should {context} implement?"
-  },
-  {
-    "objectID": "presentations/dei.html#causal-dag",
-    "href": "presentations/dei.html#causal-dag",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Causal DAG",
-    "text": "Causal DAG"
-  },
-  {
-    "objectID": "presentations/dei.html#identification-strategy",
-    "href": "presentations/dei.html#identification-strategy",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Identification Strategy",
-    "text": "Identification Strategy\n\n\nThe B problem\n\nT → B: template framing induces unmeasured latent features B (tone, rhetoric)\nB → Y: B affects LLM output\nWithout controlling for T, B can bias Z estimates\n\nSolution: three-tier nesting\n\n\n\nTier\nModel\nPurpose\n\n\n\n\n1\nchosen ~ Z\nBaseline\n\n\n2\nchosen ~ Z + C\n+ Context\n\n\n3\nchosen ~ Z + C + T\n+ Template (blocks B)\n\n\n\n\n\n\nIdentification check\n\nIf \\(T\\) matters → coefficients change\nIf \\(T\\) doesn’t matter → coefficients stable\n\n\nOLS linear probability model with HC2 robust standard errors (Hainmueller et al. 2014).\nEstimated separately per LLM"
-  },
-  {
-    "objectID": "presentations/dei.html#stability-check-template-blocks-b",
-    "href": "presentations/dei.html#stability-check-template-blocks-b",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Stability Check: Template Blocks B",
-    "text": "Stability Check: Template Blocks B\n\n\nMaxDiff (max − min AMCE across three tiers)\n\n\n\nAttribute\nDeepSeek\nGPT-4o-mini\nGemini\nClaude\nLlama-70B\n\n\n\n\nCore Values\n0.067\n0.070\n0.030\n0.048\n0.037\n\n\nScreening\n0.048\n0.046\n0.031\n0.039\n0.041\n\n\nTie-Breaking\n0.005\n0.003\n0.006\n0.004\n0.005\n\n\nHiring Quotas\n0.008\n0.009\n0.007\n0.006\n0.008"
-  },
-  {
-    "objectID": "presentations/dei.html#main-result-amce-all-five-llm",
-    "href": "presentations/dei.html#main-result-amce-all-five-llm",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Main Result: AMCE All Five LLM",
-    "text": "Main Result: AMCE All Five LLM"
-  },
-  {
-    "objectID": "presentations/dei.html#context-effects-quota-by-country",
-    "href": "presentations/dei.html#context-effects-quota-by-country",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Context Effects — Quota by Country",
-    "text": "Context Effects — Quota by Country"
-  },
-  {
-    "objectID": "presentations/dei.html#key-findings",
-    "href": "presentations/dei.html#key-findings",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Key Findings",
-    "text": "Key Findings\n\n\nAll five LLMs prefer DEI screening and tie-breaking — unanimous, large effects. Screening AMCE: +0.14 to +0.53 depending on model.\nQuota preference is the critical fault line — effects span −0.44 (Gemini) to +0.06 (GPT). Same prompt → opposite advice depending on which model you use.\nContext matters systematically — Afghanistan shifts all models toward quota acceptance; USA shifts all toward quota aversion. LLMs encode country-specific norms from training data.\nTemplate blocking validates the design — Core Values AMCE rises 4–7pp when template is controlled (Tier 1 → Tier 3), confirming that T → B → Y was real and Tier 3 is needed.\nDEI diversity ranking: GPT-4o-mini (0.98) &gt; Llama (0.85) &gt; Claude (0.81) &gt; DeepSeek (0.61) &gt; Gemini (0.15)."
-  },
-  {
-    "objectID": "presentations/dei.html#implications",
-    "href": "presentations/dei.html#implications",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Implications",
-    "text": "Implications\n\n\n\nLLMs are not neutral advisors on DEI policy\nChoosing a model is itself a normative design decision, especially for quota-related questions\nCountry context in prompts substantially shifts recommendations\n\n\n\nConjoint + AMCE design is well-suited for probing LLM normative preferences\nThe three-tier DAG strategy (T blocks B) is important for unbiased Z estimates"
-  },
-  {
-    "objectID": "presentations/dei.html#thank-you",
-    "href": "presentations/dei.html#thank-you",
-    "title": "Do Large Language Models Prefer Diversity, Equity, and Inclusion Policies?",
-    "section": "Thank You",
-    "text": "Thank You\n\nResearch question\nDo LLMs prefer DEI hiring policies?\nAnswer\nYes — but it depends on the model, the attribute, and the country context.\n\nHanif Ullah Sajid\nhanifwrites@gmail.com\n\nJason Windett\njwindett@charlotte.edu\n\n\n\nLLMs & DEI Policies"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hanif Ullah Sajid",
+    "section": "",
+    "text": "I am a Postdoctoral Research Fellow at the Center for North Carolina Politics & Public Service at Catawba College, in collaboration with the School of Data Science at UNC Charlotte, working with Dr. Michael Bitzer and Dr. Jason Windett. I have been affiliated with the Politics, AI, & Data Science (PANDAS) Lab and the Public Opinion, Learning, and Sentiment Lab (POLS-Lab). I earned my Ph.D. in Public Policy from the University of North Carolina at Charlotte as a Fulbright Scholar.\nResearch Interests\n\nComputational social science & quantitative text analysis\nLarge language models (LLMs) & natural language processing\nSurvey experiments & public opinion\nComparative policy agendas & research methods\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]

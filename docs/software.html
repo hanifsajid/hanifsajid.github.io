@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Software for Good</title>
+<title>Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,7 +68,7 @@ gtag('config', 'G-H6S53RSLGH', { 'anonymize_ip': true});
 <link rel="stylesheet" href="assets/custom.scss">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,7 +93,7 @@ gtag('config', 'G-H6S53RSLGH', { 'anonymize_ip': true});
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./software.html" aria-current="page"> 
-<span class="menu-text">Software for Good</span></a>
+<span class="menu-text">Software</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -107,15 +107,13 @@ gtag('config', 'G-H6S53RSLGH', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Software for Good</h1>
+<h1 class="title">Software</h1>
 </div>
 
 
@@ -132,20 +130,65 @@ gtag('config', 'G-H6S53RSLGH', { 'anonymize_ip': true});
 </header>
 
 
-<p><strong><code>gais</code>: Generative AI Suite</strong></p>
-<p><code>gais</code> is a Python package that provides a unified and consistent interface for working with multiple LLM providers. It also enables local LLMs via <a href="https://ollama.com" target="_blank">Ollama</a> and <a href="https://fireworks.ai" target="_blank">Fireworks</a>. It provides more flexibility with respect to responses and API configuration compared to its sister package, <a href="https://hanifsajid.github.io/azllm/" target="_blank"> azllm </a>.</p>
-<p><strong>Citation:</strong> Sajid, H.(2025). gais (Version 0.1.1) [Computer software]. https://github.com/hanifsajid/gais</p>
-<p>For more information, visit the <a href="https://hanifsajid.github.io/gais/" target="_blank">Documentation</a>.</p>
-<p><strong><code>azllm</code></strong></p>
-<p><code>azllm</code> is a Python package that provides a unified interface to work with multiple LLM providers including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.</p>
-<p><strong>Citation:</strong> Sajid, H., Radford, B., Dai, Y., &amp; Windett, J. (2025). azLLM (Version 0.1.2) [Computer software]. https://github.com/hanifsajid/azllm</p>
-<p>For more information, visit the <a href="https://hanifsajid.github.io/azllm/" target="_blank">Documentation</a>.</p>
-<p><strong><code>Legiscan Search Tool</code>:</strong></p>
-<p>A Streamlit-based web application that enables users to search, filter, and download U.S. legislative data using the LegiScan API. The tool supports searches across all state legislatures and the U.S. Congress, with advanced filtering options by bill status, chamber, type, and date range. Results can be easily exported in CSV or JSON format.</p>
-<p>Try online application: <a href="https://legiscansearch.streamlit.app/" target="_blank">LegiScan Search Tool</a>.<br>
-View the source code on GitHub:, <a href="https://github.com/hanifsajid/legiscan-search-tool.git" target="_blank">LegiScan Search Tool Repository</a>.</p>
-<p><strong><code>lvoteview</code></strong></p>
-<p><code>lvoteview</code> is an R package that enables local access to voteview data without restrictions on the number of documents per request. It allows queries on any available field in the database. The package also exports all intermediate functions used in creating a <code>pscl::rollcall</code> object, offering flexibility for customization or reuse. Additionally, it includes polarity measurement, which can be used as an argument in wnominate to assess ideal points. (under development)</p>
+<section id="gais-generative-ai-suite" class="level3 software-entry">
+<h3 class="anchored" data-anchor-id="gais-generative-ai-suite"><code>gais</code> — Generative AI Suite</h3>
+<p><span class="software-lang">Python</span></p>
+<p><code>gais</code> provides a unified and consistent interface for working with multiple LLM providers. It enables local LLMs via <a href="https://ollama.com" target="_blank">Ollama</a> and <a href="https://fireworks.ai" target="_blank">Fireworks</a>, and offers greater flexibility in response handling and API configuration compared to its sister package <code>azllm</code>.</p>
+<div class="software-links">
+<p><a href="https://github.com/hanifsajid/gais" target="_blank">GitHub</a> | <a href="https://hanifsajid.github.io/gais/" target="_blank">Documentation</a></p>
+</div>
+<div class="software-citation">
+<p>Sajid, H. (2025). <em>gais</em> (Version 0.1.1) [Computer software]. https://github.com/hanifsajid/gais</p>
+</div>
+</section>
+<section id="azllm-generative-ai-suite" class="level3 software-entry">
+<h3 class="anchored" data-anchor-id="azllm-generative-ai-suite"><code>azllm</code> — Generative AI Suite</h3>
+<p><span class="software-lang">Python</span></p>
+<p><code>azllm</code> provides a unified interface to work with multiple LLM providers — including OpenAI, DeepSeek, Grok, Gemini, Meta’s LLaMA, Anthropic, Ollama, and more.</p>
+<div class="software-links">
+<p><a href="https://github.com/hanifsajid/azllm" target="_blank">GitHub</a> | <a href="https://hanifsajid.github.io/azllm/" target="_blank">Documentation</a></p>
+</div>
+<div class="software-citation">
+<p>Sajid, H., Radford, B., Dai, Y., &amp; Windett, J. (2025). <em>azLLM</em> (Version 0.1.2) [Computer software]. https://github.com/hanifsajid/azllm</p>
+</div>
+</section>
+<section id="legiscan-search-tool" class="level3 software-entry">
+<h3 class="anchored" data-anchor-id="legiscan-search-tool">LegiScan Search Tool</h3>
+<p><span class="software-lang">Python · Streamlit</span></p>
+<p>A web application for searching, filtering, and downloading U.S. legislative data via the LegiScan API. Supports all state legislatures and the U.S. Congress, with filtering by bill status, chamber, type, and date range. Results can be exported as CSV or JSON.</p>
+<div class="software-links">
+<p><a href="https://legiscansearch.streamlit.app/" target="_blank">Live App</a> | <a href="https://github.com/hanifsajid/legiscan-search-tool" target="_blank">GitHub</a></p>
+</div>
+</section>
+<section id="lvoteview" class="level3 software-entry">
+<h3 class="anchored" data-anchor-id="lvoteview"><code>lvoteview</code></h3>
+<p><span class="software-lang">R</span> <span class="software-status">Under Development</span></p>
+<p><code>lvoteview</code> enables local access to Voteview data without per-request document limits, and supports queries on any available field. It exports intermediate functions used in constructing <code>pscl::rollcall</code> objects and includes polarity measurement for use with <code>wnominate</code>.</p>
+<div class="software-links">
+<p><a href="https://github.com/hanifsajid/lvoteview" target="_blank">GitHub</a></p>
+</div>
+</section>
+<script>
+document.querySelectorAll('.software-citation').forEach(function(el) {
+  var citationText = el.innerText.trim();
+
+  var btn = document.createElement('button');
+  btn.className = 'citation-copy-btn';
+  btn.setAttribute('title', 'Copy citation');
+  btn.innerHTML = '<i class="bi bi-clipboard"></i>';
+
+  btn.addEventListener('click', function() {
+    navigator.clipboard.writeText(citationText).then(function() {
+      btn.innerHTML = '<i class="bi bi-check-lg"></i>';
+      setTimeout(function() {
+        btn.innerHTML = '<i class="bi bi-clipboard"></i>';
+      }, 1800);
+    });
+  });
+
+  el.appendChild(btn);
+});
+</script>
 
 
 
@@ -721,11 +764,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2026, Hanif Sajid<br>
-Developed with <a href="https://quarto.org/docs/websites/" target="_blank">Quarto</a></p>
+<p>© 2026, Hanif Sajid &nbsp;·&nbsp; <a href="mailto:hanifwrites@gmail.com">hanifwrites@gmail.com</a> Developed with <a href="https://quarto.org/docs/websites/" target="_blank">Quarto</a></p>
 </div>
     <div class="nav-footer-right">
-<p>Last Modified: November 20, 2025</p>
+<p>Last Modified: April 06, 2026</p>
 </div>
   </div>
 </footer>

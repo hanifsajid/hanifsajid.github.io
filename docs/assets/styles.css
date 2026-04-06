@@ -49,5 +49,5 @@
 }
 
 #refs ul li, #refs ol li {
-  margin-bottom: 10000px; /* Space between each entry */
+  margin-bottom: 10px; /* Space between each entry */
 }

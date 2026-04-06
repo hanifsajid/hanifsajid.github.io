@@ -1,0 +1,267 @@
+/*
+ * Custom styles for hanifsajid.com
+ * Uses Bootstrap CSS variables so light/dark theme toggle works throughout.
+ */
+
+/* ── Home page ────────────────────────────────────────── */
+
+#hero-heading p {
+  line-height: 1.65;
+}
+
+#hero-heading strong {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+}
+
+#hero-heading ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.4rem;
+}
+
+#hero-heading ul li {
+  padding: 0.18rem 0;
+  font-size: 0.95rem;
+  color: var(--bs-body-color);
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+#hero-heading ul li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: var(--bs-secondary-color);
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+/* ── Teaching ─────────────────────────────────────────── */
+
+.teaching-table table {
+  width: 100%;
+  font-size: 0.91rem;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.teaching-table th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bs-secondary-color);
+  border-bottom: 1px solid var(--bs-border-color);
+  padding: 0.3rem 0.75rem 0.3rem 0;
+  font-weight: 600;
+}
+
+.teaching-table td {
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  vertical-align: top;
+  border: none;
+  color: var(--bs-body-color);
+}
+
+.teaching-table td:first-child {
+  color: var(--bs-secondary-color);
+  white-space: nowrap;
+  padding-right: 1.5rem;
+}
+
+.teaching-table td:last-child {
+  white-space: nowrap;
+  color: var(--bs-secondary-color);
+}
+
+/* ── Software ─────────────────────────────────────────── */
+
+.software-entry {
+  margin-bottom: 2rem;
+  padding-top: 1.8rem;
+  border-top: 1px dashed var(--bs-border-color);
+}
+
+.software-entry:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.software-entry h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.software-lang {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.6rem;
+  vertical-align: middle;
+}
+
+.software-status {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--bs-warning-text-emphasis);
+  border: 1px solid var(--bs-warning-border-subtle);
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+  margin-bottom: 0.6rem;
+  vertical-align: middle;
+}
+
+.software-links {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.software-links a {
+  color: var(--bs-secondary-color);
+  text-decoration: none;
+}
+
+.software-links a:hover {
+  color: var(--bs-emphasis-color);
+  text-decoration: underline;
+}
+
+.software-citation {
+  position: relative;
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  border-left: 3px solid var(--bs-border-color);
+  padding: 0.4rem 2.2rem 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.citation-copy-btn {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.4rem;
+  background: none;
+  border: none;
+  padding: 0.1rem 0.3rem;
+  color: var(--bs-secondary-color);
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.15s ease, color 0.15s ease;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.software-citation:hover .citation-copy-btn {
+  opacity: 1;
+}
+
+.citation-copy-btn:hover {
+  color: var(--bs-emphasis-color);
+}
+
+/* ── Publications ─────────────────────────────────────── */
+
+.pub-category {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--bs-border-color);
+  padding-bottom: 0.35rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1.1rem;
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pub-entry {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.pub-entry:hover {
+  border-left-color: var(--bs-border-color);
+}
+
+.pub-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.18rem;
+  line-height: 1.4;
+  color: var(--bs-body-color);
+}
+
+.pub-meta {
+  font-size: 0.91rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 0.22rem;
+  line-height: 1.5;
+}
+
+.pub-links {
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  margin-top: 0.25rem;
+}
+
+.pub-links a {
+  color: var(--bs-secondary-color);
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+  color: var(--bs-emphasis-color);
+}
+
+.pub-abstract-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  cursor: pointer;
+  vertical-align: baseline;
+  line-height: inherit;
+}
+
+.pub-abstract-btn:hover {
+  color: var(--bs-emphasis-color);
+}
+
+.pub-tri {
+  font-size: 0.7rem;
+  margin-right: 3px;
+}
+
+.pub-abstract {
+  background-color: var(--bs-secondary-bg);
+  border-left: 3px solid var(--bs-border-color);
+  padding: 0.75rem 1rem;
+  margin-top: 0.6rem;
+  font-size: 0.87rem;
+  color: var(--bs-body-color);
+  line-height: 1.55;
+}
+
+.pub-abstract p {
+  margin-bottom: 0;
+}
