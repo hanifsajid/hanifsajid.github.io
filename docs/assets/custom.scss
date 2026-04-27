@@ -217,39 +217,57 @@
 }
 
 .pub-links {
-  font-size: 0.82rem;
-  color: var(--bs-secondary-color);
-  margin-top: 0.25rem;
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
 }
 
-.pub-links a {
-  color: var(--bs-secondary-color);
+.pub-pill {
+  display: inline-block;
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.05rem 0.35rem;
+  text-decoration: none;
+  line-height: 1.5;
+  vertical-align: middle;
+  transition: opacity 0.15s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.pub-pill:hover {
+  opacity: 0.65;
   text-decoration: none;
 }
 
-.pub-links a:hover {
-  text-decoration: underline;
-  color: var(--bs-emphasis-color);
+.pub-pill-url {
+  background-color: #e8f3fc;
+  color: #3a7fbb;
 }
 
-.pub-abstract-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  font-size: 0.82rem;
-  color: var(--bs-secondary-color);
-  cursor: pointer;
-  vertical-align: baseline;
-  line-height: inherit;
+.pub-pill-pdf {
+  background-color: #fce8e7;
+  color: #c0392b;
 }
 
-.pub-abstract-btn:hover {
-  color: var(--bs-emphasis-color);
+.pub-pill-rep {
+  background-color: #e2f5ec;
+  color: #27ae60;
+}
+
+.pub-pill-abstract {
+  background-color: #eeebf9;
+  color: #7c6fcd;
 }
 
 .pub-tri {
-  font-size: 0.7rem;
-  margin-right: 3px;
+  font-size: 0.65rem;
+  margin-right: 2px;
 }
 
 .pub-abstract {
