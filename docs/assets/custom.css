@@ -3,6 +3,19 @@
  * Uses Bootstrap CSS variables so light/dark theme toggle works throughout.
  */
 
+/* ── Recent (updates) ─────────────────────────────────── */
+
+#hero-heading strong + ul {
+  margin-top: 0.2rem;
+}
+
+#hero-heading strong:last-of-type {
+  display: block;
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bs-border-color);
+}
+
 /* ── Home page ────────────────────────────────────────── */
 
 #hero-heading p {
@@ -246,23 +259,23 @@
 }
 
 .pub-pill-url {
-  background-color: #e8f3fc;
-  color: #3a7fbb;
+  background-color: var(--bs-info-bg-subtle);
+  color: var(--bs-info-text-emphasis);
 }
 
 .pub-pill-pdf {
-  background-color: #fce8e7;
-  color: #c0392b;
+  background-color: var(--bs-danger-bg-subtle);
+  color: var(--bs-danger-text-emphasis);
 }
 
 .pub-pill-rep {
-  background-color: #e2f5ec;
-  color: #27ae60;
+  background-color: var(--bs-success-bg-subtle);
+  color: var(--bs-success-text-emphasis);
 }
 
 .pub-pill-abstract {
-  background-color: #eeebf9;
-  color: #7c6fcd;
+  background-color: var(--bs-primary-bg-subtle);
+  color: var(--bs-primary-text-emphasis);
 }
 
 .pub-tri {
